@@ -72,6 +72,7 @@ constraint fk_idPedido foreign key(idPedido) references Pedido(idPedido),
 CREATE TABLE PROVEEDOR(
 idProveedor int not null primary key identity(1,1),
 runProveedor varchar(15) not null,
+nombreProveedor varchar(50) not null
 direccion varchar(50) not null,
 telefono varchar(15),
 correo varchar(50) not null,
