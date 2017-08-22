@@ -237,3 +237,45 @@ VALUES('16740949-0','Alexander Candia','correoEncargadoVenta39@gmail.com','(56)-
 
 INSERT INTO ENCARGADO_VENTA(runEncargado,nombreEncargado,correo,celular)
 VALUES('10001851-9','YO','correoEncargadoVenta40@gmail.com','(56)-98374837')
+
+=======
+insert into Categoria values(1,'Gerente General','Jefe de todo');
+insert into Categoria values(1,'Gerente de Operaciones','Jefe del depto Operaciones');
+insert into Categoria values(1,'Gerente de Produccion','Jefe del depto Produccion');
+insert into Categoria values(1,'Gerente de Marketing','Jefe del depto Marketing');
+insert into Categoria values(1,'Gerente de Recursos Humanos','Jefe del depto Recursos Humanos');
+insert into Categoria values(1,'Gerente de Finanzas','Jefe del depto Finanzas');
+insert into Categoria values(1,'Gerente de Ventas','Jefe del depto Ventas');
+insert into Categoria values(1,'Gerente de Informatica','Jefe del depto Informatica');
+insert into Categoria values(1,'Gerente de Inversiones','Jefe del depto Inversiones');
+insert into Categoria values(1,'Operador','Opera');
+insert into Categoria values(1,'Secretaria','Secretaria');
+insert into Categoria values(1,'Publicista','Publicista');
+insert into Categoria values(1,'Diseñador','Diseñador');
+insert into Categoria values(1,'Contador','Contador');
+insert into Categoria values(1,'Auditor','Auditor');
+insert into Categoria values(1,'Ingeniero Comercial','Ingeniero');
+insert into Categoria values(1,'Administrador','Administrador');
+insert into Categoria values(1,'Jefe de Vendedores',' Jefe');
+insert into Categoria values(1,'Vendedor','Vendedor');
+insert into Categoria values(1,'Chofer','Chofer');
+insert into Categoria values(1,'Pioneta','Pioneta');
+insert into Categoria values(1,'Diseñador Web','Diseñador Web');
+insert into Categoria values(1,'Programador','Programador');
+insert into Categoria values(1,'Analista','Analista');
+insert into Categoria values(1,'Administrador Base de Datos','Administrador Base de Datos');
+insert into Categoria values(1,'Jefe de Informatica','Jefe');
+insert into Categoria values(1,'Administrador de Redes','Administrador de Redes');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
+insert into Categoria values(1,'','');
