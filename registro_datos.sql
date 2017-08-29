@@ -238,6 +238,126 @@ VALUES('16740949-0','Alexander Candia','correoEncargadoVenta39@gmail.com','(56)-
 INSERT INTO ENCARGADO_VENTA(runEncargado,nombreEncargado,correo,celular)
 VALUES('10001851-9','YO','correoEncargadoVenta40@gmail.com','(56)-98374837')
 
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('6593924-k','Angelo Candia','correoEncargadoVenta1@gmail.com','(56)-9394847')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('6205056-k','Rolando Aburto','correoEncargadoVenta2@gmail.com','(56)-9384509')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('7966836-2','Benjamin Matamoros','correoEncargadoVenta3@gmail.com','(56)-9394857')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('24085847-9','Jose Contreras','correoEncargadoVenta4@gmail.com','(56)-946589367')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('10458280-k','Rafaella Candia','correoEncargadoVenta5@gmail.com','(56)-9837843')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16553169-8','Koku','correoEncargadoVenta6@gmail.com','(56)-94378734')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('22387442-8','Oliver rios','correoEncargadoVenta7@gmail.com','(56)-9387483')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('20976902-6','Daniel Vergara','correoEncargadoVenta8@gmail.com','(56)-938938938')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('17926955-4','Francisco gallardo','correoEncargadoVenta9@gmail.com','(56)-93878347')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('8206474-5','Cindy Contador','correoEncargadoVenta10@gmail.com','(56)-987384783')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('20884039-8','Fabian Miranda','correoEncargadoVenta11@gmail.com','(56)-994739')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('17585123-2','Michelle no bachelet','correoEncargadoVenta12@gmail.com','(56)-98374878347')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('10186316-6','Pepe patea traseros','correoEncargadoVenta13@gmail.com','(56)-939849843')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16515224-7','Ned Flander','correoEncargadoVenta14@gmail.com','(56)-99339849')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('22877207-0','Lisa simpson','correoEncargadoVenta15@gmail.com','(56)-9837837')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16205575-5','Max Power','correoEncargadoVenta16@gmail.com','(56)-9387438')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('6300496-0','Max Power 2','correoEncargadoVenta17@gmail.com','(56)-9398943898')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('6698767-1','Oliver Aton','correoEncargadoVenta18@gmail.com','(56)-99389348')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('23474345-7','Jerry smith','correoEncargadoVenta19@gmail.com','(56)-9928398')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16443983-6','Summer winter','correoEncargadoVenta20@gmail.com','(56)-985789547')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('10787727-4','iseufhsih','correoEncargadoVenta21@gmail.com','(56)-99784839')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('15953250-k','sfuhseifhsf','correoEncargadoVenta22@gmail.com','(56)-90389948')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('20597206-4','Vivanco Tapia','correoEncargadoVenta23@gmail.com','(56)-93874837')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('7408934-8','Arland Michellena','correoEncargadoVenta24@gmail.com','(56)-9938984')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('19607907-6','Tipo de abajao','correoEncargadoVenta25@gmail.com','(56)-998394839')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('5161089-k','Morgana flin','correoEncargadoVenta26@gmail.com','(56)-989879384')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('9568174-3','Futaba sakura','correoEncargadoVenta27@gmail.com','(56)-993849')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16217783-4','Ann flores','correoEncargadoVenta28@gmail.com','(56)-93874837')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('10944674-2','Buho','correoEncargadoVenta29@gmail.com','(56)-926536253')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('18591719-3','Perro','correoEncargadoVenta30@gmail.com','(56)-983787')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('9887457-7','Gato','correoEncargadoVenta31@gmail.com','(56)-9376476736')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('18599036-2','Michael de Santa','correoEncargadoVenta32@gmail.com','(56)-987387348')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('22192193-3','CJ','correoEncargadoVenta33@gmail.com','(56)-97363342')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('15238495-5','Jesus','correoEncargadoVenta34@gmail.com','(56)-9376763')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16808844-2','No jesus','correoEncargadoVenta35@gmail.com','(56)-9387438')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('15605131-4','Claudio contreras','correoEncargadoVenta36@gmail.com','(56)-9387483478')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('21320904-3','Miguel','correoEncargadoVenta37@gmail.com','(56)-9487834758')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('6991844-1','Tapia','correoEncargadoVenta38@gmail.com','(56)-9384787')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('16740949-0','Alexander Candia','correoEncargadoVenta39@gmail.com','(56)-98374837')
+
+INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
+VALUES('10001851-9','YO','correoEncargadoVenta40@gmail.com','(56)-98374837')
+
 =======
 insert into Categoria values(1,'Gerente General','Jefe de todo');
 insert into Categoria values(2,'Gerente de Operaciones','Jefe del depto Operaciones');
