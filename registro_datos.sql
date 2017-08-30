@@ -556,3 +556,243 @@ INSERT INTO EMPLEADO(
 INSERT INTO EMPLEADO(
 	RUNEMPLEADO,NOMBREEMPLEADO,APELLIDOEMPLEADO,APELLIDOMATERNO,GENERO,NACIONALIDAD,FECHACONTRATO,SUELDO,FECHANACIMIENTO,ESEMPLEADO,IDCATEGORIAEMPLEADO,IDSUCURSAL)
 	VALUES('4-9','Rolando','Aburto','Olivares','M','Chileno','2017-04-25',2500000,'1989-06-27','S',,)
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-1','25/08/17','25/11/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-2','25/08/17','25/11/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-3','25/08/17','25/11/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-4','25/08/17','25/11/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-5','25/08/17','25/11/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-6','01/07/17','01/10/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-7','01/07/17','01/10/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-8','01/07/17','01/10/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-9','01/07/17','01/10/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-10','01/07/17','01/10/17','San Joaquin 5555','Santiago','Los Patitos','2-9');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-11','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-12','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-13','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-14','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-15','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-16','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-17','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-18','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-19','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-20','15/09/17','15/12/17','San Joaquin 5555','Santiago','Los Patitos','4-3');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-22','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-21','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-23','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-24','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-25','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-26','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-27','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-28','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-29','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-30','20/08/17','20/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-31','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-32','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-33','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-34','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-35','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-36','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-37','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-38','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-39','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO FACTURA(rutFactura,fechaEmision,fechaVencimiento,direccion,ciudad,comuna,runEmpleado)
+VALUES('1-40','29/08/17','29/11/17','Macul 34','Santiago','YOLOLO','3-7');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,190,1000,1190,'1-1');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,380,2000,2380,'1-2');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,570,3000,3570,'1-3');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,760,4000,4760,'1-4');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,950,5000,5950,'1-5');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,1140,6000,7140,'1-6');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,1330,7000,8330,'1-7');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,1520,8000,9529,'1-8');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,1710,9000,10710,'1-9');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,1900,10000,11900,'1-10');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,2280,12000,14280,'1-11');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,2660,14000,16660,'1-12');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(3,3040,16000,19040,'1-13');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,3420,18000,21420,'1-14');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,3800,20000,23800,'1-15');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,3990,21000,24990,'1-16');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4180,22000,26180,'1-17');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4370,23000,27370,'1-18');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,4560,24000,28560,'1-19');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,190,1000,1900,'1-20');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4750,25000,29750,'1-21');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4940,26000,30940,'1-22');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,5130,27000,32130,'1-23');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,5320,28000,33320,'1-24');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,5510,29000,34510,'1-25');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(3,5700,30000,35700,'1-26');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,950,5000,5950,'1-27');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,1900,10000,11900,'1-28');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,2850,15000,17850,'1-29');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,3800,20000,23800,'1-30');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4750,25000,29750,'1-31');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,5700,30000,35700,'1-32');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(2,760,4000,4760,'1-33');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,2660,14000,16660,'1-34');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4560,24000,28560,'1-35');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,380,2000,2380,'1-36');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,2280,12000,14280,'1-37');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(1,4180,22000,26180,'1-38');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(3,19000,100000,119000,'1-39');
+
+INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
+VALUES(4,9500,50000,59500,'1-40');
