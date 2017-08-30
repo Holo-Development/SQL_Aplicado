@@ -358,50 +358,50 @@ VALUES('16740949-0','Alexander Candia','correoEncargadoVenta39@gmail.com','(56)-
 INSERT INTO ENCARGADO_COMPRA(runEncargado,nombreEncargado,correo,celular)
 VALUES('10001851-9','YO','correoEncargadoVenta40@gmail.com','(56)-98374837')
 
-=======
-insert into Categoria values(1,'Gerente General','Jefe de todo');
-insert into Categoria values(2,'Gerente de Operaciones','Jefe del depto Operaciones');
-insert into Categoria values(3,'Gerente de Produccion','Jefe del depto Produccion');
-insert into Categoria values(4,'Gerente de Marketing','Jefe del depto Marketing');
-insert into Categoria values(5,'Gerente de Recursos Humanos','Jefe del depto Recursos Humanos');
-insert into Categoria values(6,'Gerente de Finanzas','Jefe del depto Finanzas');
-insert into Categoria values(7,'Gerente de Ventas','Jefe del depto Ventas');
-insert into Categoria values(8,'Gerente de Informatica','Jefe del depto Informatica');
-insert into Categoria values(9,'Gerente de Inversiones','Jefe del depto Inversiones');
-insert into Categoria values(10,'Junior','Junior');
-insert into Categoria values(11,'Secretaria','Secretaria');
-insert into Categoria values(12,'Publicista','Publicista');
-insert into Categoria values(13,'Diseñador','Diseñador');
-insert into Categoria values(14,'Contador','Contador');
-insert into Categoria values(15,'Auditor','Auditor');
-insert into Categoria values(16,'Ingeniero Comercial','Ingeniero');
-insert into Categoria values(17,'Administrador','Administrador');
-insert into Categoria values(18,'Jefe de Vendedores',' Jefe');
-insert into Categoria values(19,'Vendedor','Vendedor');
-insert into Categoria values(20,'Chofer','Chofer');
-insert into Categoria values(21,'Pioneta','Pioneta');
-insert into Categoria values(22,'Diseñador Web','Diseñador Web');
-insert into Categoria values(23,'Programador','Programador');
-insert into Categoria values(24,'Analista','Analista');
-insert into Categoria values(25,'Administrador Base de Datos','Administrador Base de Datos');
-insert into Categoria values(26,'Jefe de Informatica','Jefe');
-insert into Categoria values(27,'Administrador de Redes','Administrador de Redes');
-insert into Categoria values(28,'Tecnico de Redes','Tecnico de Redes');
-insert into Categoria values(29,'Jefe de Inversiones','Jefe de Inversiones');
-insert into Categoria values(30,'Administrador de Inversiones','Administrador de Inversiones');
-insert into Categoria values(31,'Trabajador de Planta','Trabajador de Planta');
-insert into Categoria values(32,'Encargados de Inversiones','Encargados de Inversiones');
-insert into Categoria values(33,'Bodeguero','Bodeguero');
-insert into Categoria values(34,'Encargado de Bodega','Encargado');
-insert into Categoria values(35,'Jefe de Bodega','Jefe de Bodega');
-insert into Categoria values(36,'Jefe de Choferes','Jefe');
-insert into Categoria values(37,'Ruteador','Ruteador');
-insert into Categoria values(38,'Jefe de Rutas','Jefe de Rutas');
-insert into Categoria values(39,'Encargado de Planta','Encargado de Planta');
-insert into Categoria values(40,'Jefe de Encargado de Planta','Jefe');
+------------
 
-=======
+insert into Categoria_EMPLEADO values('Gerente General','Jefe de todo');
+insert into Categoria_EMPLEADO values('Gerente de Operaciones','Jefe del depto Operaciones');
+insert into Categoria_EMPLEADO values('Gerente de Produccion','Jefe del depto Produccion');
+insert into Categoria_EMPLEADO values('Gerente de Marketing','Jefe del depto Marketing');
+insert into Categoria_EMPLEADO values('Gerente de Recursos Humanos','Jefe del depto Recursos Humanos');
+insert into Categoria_EMPLEADO values('Gerente de Finanzas','Jefe del depto Finanzas');
+insert into Categoria_EMPLEADO values('Gerente de Ventas','Jefe del depto Ventas');
+insert into Categoria_EMPLEADO values('Gerente de Informatica','Jefe del depto Informatica');
+insert into Categoria_EMPLEADO values('Gerente de Inversiones','Jefe del depto Inversiones');
+insert into Categoria_EMPLEADO values('Junior','Junior');
+insert into Categoria_EMPLEADO values('Secretaria','Secretaria');
+insert into Categoria_EMPLEADO values('Publicista','Publicista');
+insert into Categoria_EMPLEADO values('Diseñador','Diseñador');
+insert into Categoria_EMPLEADO values('Contador','Contador');
+insert into Categoria_EMPLEADO values('Auditor','Auditor');
+insert into Categoria_EMPLEADO values('Ingeniero Comercial','Ingeniero');
+insert into Categoria_EMPLEADO values('Administrador','Administrador');
+insert into Categoria_EMPLEADO values('Jefe de Vendedores',' Jefe');
+insert into Categoria_EMPLEADO values('Vendedor','Vendedor');
+insert into Categoria_EMPLEADO values('Chofer','Chofer');
+insert into Categoria_EMPLEADO values('Pioneta','Pioneta');
+insert into Categoria_EMPLEADO values('Diseñador Web','Diseñador Web');
+insert into Categoria_EMPLEADO values('Programador','Programador');
+insert into Categoria_EMPLEADO values('Analista','Analista');
+insert into Categoria_EMPLEADO values('Administrador Base de Datos','Administrador Base de Datos');
+insert into Categoria_EMPLEADO values('Jefe de Informatica','Jefe');
+insert into Categoria_EMPLEADO values('Administrador de Redes','Administrador de Redes');
+insert into Categoria_EMPLEADO values('Tecnico de Redes','Tecnico de Redes');
+insert into Categoria_EMPLEADO values('Jefe de Inversiones','Jefe de Inversiones');
+insert into Categoria_EMPLEADO values('Administrador de Inversiones','Administrador de Inversiones');
+insert into Categoria_EMPLEADO values('Trabajador de Planta','Trabajador de Planta');
+insert into Categoria_EMPLEADO values('Encargados de Inversiones','Encargados de Inversiones');
+insert into Categoria_EMPLEADO values('Bodeguero','Bodeguero');
+insert into Categoria_EMPLEADO values('Encargado de Bodega','Encargado');
+insert into Categoria_EMPLEADO values('Jefe de Bodega','Jefe de Bodega');
+insert into Categoria_EMPLEADO values('Jefe de Choferes','Jefe');
+insert into Categoria_EMPLEADO values('Ruteador','Ruteador');
+insert into Categoria_EMPLEADO values('Jefe de Rutas','Jefe de Rutas');
+insert into Categoria_EMPLEADO values('Encargado de Planta','Encargado de Planta');
+insert into Categoria_EMPLEADO values('Jefe de Encargado de Planta','Jefe');
 
+----------
 INSERT INTO EMPLEADO(
 	RUNEMPLEADO,NOMBREEMPLEADO,APELLIDOEMPLEADO,APELLIDOMATERNO,GENERO,NACIONALIDAD,FECHACONTRATO,SUELDO,FECHANACIMIENTO,ESEMPLEADO,IDCATEGORIAEMPLEADO,IDSUCURSAL)
 	VALUES('1-1','Camilo',' Perez','Valdivia','M','Chileno','2017-04-25',250000,'1976-02-01','S',,)
@@ -796,3 +796,156 @@ VALUES(3,19000,100000,119000,'1-39');
 
 INSERT INTO DETALLE_FACTURA(cantidad,detalle,precioUnitario,total,idFactura)
 VALUES(4,9500,50000,59500,'1-40');
+
+--SOLO 10 
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Especial');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Restaurante Fino');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Hotel 3 Estrellas');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Restaurante Comida Rapida');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Empresa');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Heladeria');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Panaderia');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Restaurante Comun');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Hotel 5 Estrellas');
+
+INSERT INTO CATEGORIA_CLIENTE(nombreCategoria)
+VALUES('Proveedor');
+
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-1','','','','','','',1,1);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-2','','','','','','',2,1);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-3','','','','','','',3,1);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-4','','','','','','',4,1);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-5','','','','','','',5,2);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-6','','','','','','',6,2);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-7','','','','','','',7,2);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-8','','','','','','',8,2);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-9','','','','','','',9,3);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('10-0','','','','','','',10,3);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-1','','','','','','',11,3);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-2','','','','','','',12,3);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-3','','','','','','',13,4);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-4','','','','','','',14,4);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-5','','','','','','',15,4);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-6','','','','','','',16,4);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-7','','','','','','',17,5);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-8','','','','','','',18,5);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-9','','','','','','',19,5);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('11-0','','','','','','',20,5);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-0','','','','','','',21,6);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-1','','','','','','',22,6);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-2','','','','','','',23,6);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-3','','','','','','',24,6);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-4','','','','','','',25,7);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-5','','','','','','',26,7);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-6','','','','','','',27,7);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-7','','','','','','',28,7);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-8','','','','','','',29,8);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('12-9','','','','','','',30,8);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-0','','','','','','',31,8);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-1','','','','','','',32,8);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-2','','','','','','',33,9);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-3','','','','','','',34,9);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-4','','','','','','',35,9);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-5','','','','','','',36,9);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-6','','','','','','',37,10);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-7','','','','','','',38,10);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-8','','','','','','',39,10);
+
+INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
+VALUES('13-9','','','','','','',40,10);
+
