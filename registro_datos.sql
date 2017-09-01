@@ -837,121 +837,121 @@ INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,e
 VALUES('10-1','Restaurante Bin Xian','Las flores','(2)-23829384','correoCliente1@gmail.coom','(56)-91738459','1',1,1);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-2','','La Florida','(2)-23738402','correoCliente2@gmail.coom','(56)-948294827','1',2,1);
+VALUES('10-2','Restaurante Bella China','La Florida','(2)-23738402','correoCliente2@gmail.coom','(56)-948294827','1',2,1);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-3','','Los presidentes','(2)-29483822','correoCliente3@gmail.coom','(56)-948206724','1',3,1);
+VALUES('10-3','Restaurante I-Ching','Los presidentes','(2)-29483822','correoCliente3@gmail.coom','(56)-948206724','1',3,1);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-4','','Los quilines','(2)-24838292','correoCliente4@gmail.coom','(56)-981204573','1',4,1);
+VALUES('10-4','Restaurante Dong Xing','Los quilines','(2)-24838292','correoCliente4@gmail.coom','(56)-981204573','1',4,1);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-5','','Los Grecio','(2)-29493833','correoCliente5@gmail.coom','(56)-937491079','1',5,2);
+VALUES('10-5','Restaurante China Popular','Los Grecio','(2)-29493833','correoCliente5@gmail.coom','(56)-937491079','1',5,2);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-6','','Grecia','(2)-23948371','correoCliente6@gmail.coom','(56)-910596283','1',6,2);
+VALUES('10-6','Restaurante Vaquita Sabrosa','Grecia','(2)-23948371','correoCliente6@gmail.coom','(56)-910596283','1',6,2);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-7','','Rolando ABURTO','(2)-24938203','correoCliente7@gmail.coom','(56)-918293059','1',7,2);
+VALUES('10-7','Hotel Sheraton','Rolando ABURTO','(2)-24938203','correoCliente7@gmail.coom','(56)-918293059','1',7,2);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-8','','EVT','(2)-24938402','correoCliente8@gmail.coom','(56)-975391234','0',8,2);
+VALUES('10-8','Hotel Marriot','EVT','(2)-24938402','correoCliente8@gmail.coom','(56)-975391234','0',8,2);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-9','','LOS GATITOS','(2)-24938459','correoCliente9@gmail.coom','(56)-985746371','0',9,3);
+VALUES('10-9','Restaurante El Chilenazo','LOS GATITOS','(2)-24938459','correoCliente9@gmail.coom','(56)-985746371','0',9,3);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('10-0','','lOS PATITOS','(2)-24837493','correoCliente10@gmail.coom','(56)-905948273','0',10,3);
+VALUES('10-0','Restaurante Parrilladas Argentinas','lOS PATITOS','(2)-24837493','correoCliente10@gmail.coom','(56)-905948273','0',10,3);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-1','','Los puinguinos','(2)-25049583','correoCliente11@gmail.coom','(56)-939405012','0',11,3);
+VALUES('11-1','Restaurante Parrilladas Uruguayas','Los puinguinos','(2)-25049583','correoCliente11@gmail.coom','(56)-939405012','0',11,3);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-2','','los leones','(2)-24938450','correoCliente12@gmail.coom','(56)-994851426','1',12,3);
+VALUES('11-2','Restaurante El Riconcito Acogedor','los leones','(2)-24938450','correoCliente12@gmail.coom','(56)-994851426','1',12,3);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-3','','Las marcelas','(2)-25948237','correoCliente13@gmail.coom','(56)-970583658','1',13,4);
+VALUES('11-3','Restaurante Eladio','Las marcelas','(2)-25948237','correoCliente13@gmail.coom','(56)-970583658','1',13,4);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-4','','las gayas fieras','(2)-26059487','correoCliente14@gmail.coom','(56)-969256813','1',14,4);
+VALUES('11-4','Restaurante Donde Zacarias','las gayas fieras','(2)-26059487','correoCliente14@gmail.coom','(56)-969256813','1',14,4);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-5','','Las arañas','(2)-25049283','correoCliente15@gmail.coom','(56)-947581029','1',15,4);
+VALUES('11-5','Centro de Eventos La Cuca','Las arañas','(2)-25049283','correoCliente15@gmail.coom','(56)-947581029','1',15,4);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-6','','Las Avistas','(2)-25948237','correoCliente16@gmail.coom','(56)-949386027','1',16,4);
+VALUES('11-6','Restaurante Pollo Caballo','Las Avistas','(2)-25948237','correoCliente16@gmail.coom','(56)-949386027','1',16,4);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-7','','Flaite','(2)-25902322','correoCliente17@gmail.coom','(56)-936486028','0',17,5);
+VALUES('11-7','Restaurante Huan-Li','Flaite','(2)-25902322','correoCliente17@gmail.coom','(56)-936486028','0',17,5);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-8','','nO FLAITE','(2)-25948371','correoCliente18@gmail.coom','(56)-960384059','0',18,5);
+VALUES('11-8','Restaurante Ming-Shi','nO FLAITE','(2)-25948371','correoCliente18@gmail.coom','(56)-960384059','0',18,5);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-9','','Pizza','(2)-25934823','correoCliente19@gmail.coom','(56)-949284068','1',19,5);
+VALUES('11-9','Restaurante Danubio Azul','Pizza','(2)-25934823','correoCliente19@gmail.coom','(56)-949284068','1',19,5);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('11-0','','ñuñoa 2345','(2)-25034928','correoCliente20@gmail.coom','(56)-937597015','1',20,5);
+VALUES('11-0','Restaurante Hou-King','ñuñoa 2345','(2)-25034928','correoCliente20@gmail.coom','(56)-937597015','1',20,5);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-0','','Vespucio sUR 23343','(2)-25938272','correoCliente21@gmail.coom','(56)-939581393','1',21,6);
+VALUES('12-0','Restaurante Chicken Story','Vespucio sUR 23343','(2)-25938272','correoCliente21@gmail.coom','(56)-939581393','1',21,6);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-1','','Vespucio Norte','(2)-25934838','correoCliente22@gmail.coom','(56)-949382019','0',22,6);
+VALUES('12-1','Restaurante China Bella','Vespucio Norte','(2)-25934838','correoCliente22@gmail.coom','(56)-949382019','0',22,6);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-2','','Vespucio Centro 234783','(2)-29548383','correoCliente23@gmail.coom','(56)-948592840','0',23,6);
+VALUES('12-2','Restaurante Sushi Lounge','Vespucio Centro 234783','(2)-29548383','correoCliente23@gmail.coom','(56)-948592840','0',23,6);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-3','','Vespucio Este 347834','(2)-25934822','correoCliente24@gmail.coom','(56)-969482740','0',24,6);
+VALUES('12-3','Hotel Angaroa','Vespucio Este 347834','(2)-25934822','correoCliente24@gmail.coom','(56)-969482740','0',24,6);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-4','','Rotonda Grecia 3478','(2)-24589393','correoCliente25@gmail.coom','(56)-927365038','1',25,7);
+VALUES('12-4','Restaurante Aji Seco','Rotonda Grecia 3478','(2)-24589393','correoCliente25@gmail.coom','(56)-927365038','1',25,7);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-5','','EEYUU','(2)-25994943','correoCliente26@gmail.coom','(56)-927384920','1',26,7);
+VALUES('12-5','Ristorante La Piccola Italia','EEYUU','(2)-25994943','correoCliente26@gmail.coom','(56)-927384920','1',26,7);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-6','','MEXICO 2342','(2)-25034893','correoCliente27@gmail.coom','(56)-926374859','1',27,7);
+VALUES('12-6','Fuente de Soda Fuente Alemana','MEXICO 2342','(2)-25034893','correoCliente27@gmail.coom','(56)-926374859','1',27,7);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-7','','Argentina 2343','(2)-25947838','correoCliente28@gmail.coom','(56)-937485029','1',28,7);
+VALUES('12-7','Restaurante El Otro Sitio','Argentina 2343','(2)-25947838','correoCliente28@gmail.coom','(56)-937485029','1',28,7);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-8','','Colombia 3478','(2)-25938282','correoCliente29@gmail.coom','(56)-948573910','0',29,8);
+VALUES('12-8','Restaurante Shu-Wei','Colombia 3478','(2)-25938282','correoCliente29@gmail.coom','(56)-948573910','0',29,8);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('12-9','','Haiti 3487','(2)-29589382','correoCliente30@gmail.coom','(56)-948472930','1',30,8);
+VALUES('12-9','Restaurante Tong-Fong','Haiti 3487','(2)-29589382','correoCliente30@gmail.coom','(56)-948472930','1',30,8);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-0','','Gran LINE','(2)-29583833','correoCliente31@gmail.coom','(56)-960449382','1',31,8);
+VALUES('13-0','Restaurante Fu-Manchu','Gran LINE','(2)-29583833','correoCliente31@gmail.coom','(56)-960449382','1',31,8);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-1','','Kame house','(2)-29583822','correoCliente32@gmail.coom','(56)-949582489','0',32,8);
+VALUES('13-1','drdfgfdf','Kame house','(2)-29583822','correoCliente32@gmail.coom','(56)-949582489','0',32,8);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-2','','kONOHA','(2)-20493822','correoCliente33@gmail.coom','(56)-959382702','1',33,9);
+VALUES('13-2','dfgdfgdfgdg','kONOHA','(2)-20493822','correoCliente33@gmail.coom','(56)-959382702','1',33,9);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-3','','LOS sILVESTRES','(2)-28948933','correoCliente34@gmail.coom','(56)-949238292','0',34,9);
+VALUES('13-3','fgdfgdfgdfg','LOS sILVESTRES','(2)-28948933','correoCliente34@gmail.coom','(56)-949238292','0',34,9);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-4','','El ahhh','(2)-29489478','correoCliente35@gmail.coom','(56)-949238402','1',35,9);
+VALUES('13-4','dfgdfgfgf','El ahhh','(2)-29489478','correoCliente35@gmail.coom','(56)-949238402','1',35,9);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-5','','LOS AZULEJOS','(2)-29493833','correoCliente36@gmail.coom','(56)-948934892','1',36,9);
+VALUES('13-5','fdgfffgf','LOS AZULEJOS','(2)-29493833','correoCliente36@gmail.coom','(56)-948934892','1',36,9);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-6','','Los Mapaches','(2)-29049393','correoCliente37@gmail.coom','(56)-940294820','1',37,10);
+VALUES('13-6','fgffgfgfgf','Los Mapaches','(2)-29049393','correoCliente37@gmail.coom','(56)-940294820','1',37,10);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-7','','Los Iglu','(2)-20492922','correoCliente38@gmail.coom','(56)-948273922','0',38,10);
+VALUES('13-7','fhfghfghgf','Los Iglu','(2)-20492922','correoCliente38@gmail.coom','(56)-948273922','0',38,10);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-8','','Las Peredes','(2)-29538383','correoCliente39@gmail.coom','(56)-940593822','0',39,10);
+VALUES('13-8','fghgfhgfhgf','Las Peredes','(2)-29538383','correoCliente39@gmail.coom','(56)-940593822','0',39,10);
 
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
-VALUES('13-9','','Las Cajas','(2)-20493822','correoCliente40@gmail.coom','(56)-905394843','0',40,10);
+VALUES('13-9','fghgfhgfhgf','Las Cajas','(2)-20493822','correoCliente40@gmail.coom','(56)-905394843','0',40,10);
 
 INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
 VALUES('99-1','2016-12-04','Restaurante Bin Xian','123456789','Mexico 2134','La Florida','Santiago',19);
@@ -1046,6 +1046,7 @@ VALUES('97-k','2016-12-04','Restaurante Tong-Fong','673465675','Teatinos 754','S
 INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
 VALUES('96-1','2016-12-04','Restaurante Fu-Manchu','765234978','Compañia 4464','Santiago','Santiago',19);
 
+<<<<<<< HEAD
 INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
 VALUES(5,'',,'','','2017-10-22')
 
@@ -1135,3 +1136,5 @@ VALUES(17,,,'','','2017-10-22')
 
 INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
 VALUES(19,,,'','','2017-10-22')
+=======
+>>>>>>> 8e2aa3aeed94f12d3edcfceebdd4577b2cb1393b
