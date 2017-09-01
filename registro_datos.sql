@@ -1045,3 +1045,93 @@ VALUES('97-k','2016-12-04','Restaurante Tong-Fong','673465675','Teatinos 754','S
 
 INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
 VALUES('96-1','2016-12-04','Restaurante Fu-Manchu','765234978','Compañia 4464','Santiago','Santiago',19);
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(5,'',,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(10,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(7,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(4,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(3,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(9,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(8,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(5,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(1,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(7,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(6,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(9,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(5,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(7,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(5,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(2,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(1,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(9,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(40,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(5,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(11,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(12,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(13,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(88,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(3,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(45,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(14,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(15,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(17,,,'','','2017-10-22')
+
+INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
+VALUES(19,,,'','','2017-10-22')

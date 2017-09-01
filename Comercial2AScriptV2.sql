@@ -39,7 +39,7 @@ CREATE TABLE SUCURSAL
 	idSucursal int not null primary key identity(1,1),
 	nombreSucursal varchar(10) not null,
 	direccion varchar(20) not null,
-	telefono int not null,
+	telefono varchar(20) not null,
 	correo varchar(50) not null,
 	idEncargado int not null,
 	constraint fk_encargado foreign key(idEncargado)
@@ -145,7 +145,7 @@ CREATE TABLE DETALLE_GUIA_DESPACHO
 (
 		Detalle_Guia_Despacho_ID int not null primary key identity(1,1),
 		cantidad int not null,
-		detalle int not null,
+		detalle varchar(20) not null,
 		total int not null,
 		nombreRecepcion varchar(50) not null,
 		rutRecepcion varchar(15) not null,
