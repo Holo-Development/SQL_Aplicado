@@ -949,3 +949,95 @@ VALUES('13-8','','','','','','',39,10);
 INSERT INTO CLIENTE(rutCliente,nombreCliente,direccion,telefono,correo,celular,esCliente,idEncargado,idCategoriaCliente)
 VALUES('13-9','','','','','','',40,10);
 
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-1','2016-12-04','Restaurante Bin Xian','123456789','Mexico 2134');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-2','2016-12-04','Restaurante Bella China','987654321','Holanda 323');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-3','2016-12-04','Restaurante I-Ching','749365939','Dinamarca 2145');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-4','2016-12-04','Restaurante Dong Xing','537597735','Suecia 5677');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-5','2016-12-04','Restaurante China Popular','345631237','Polonia 543');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-6','2016-12-04','Restaurante Vaquita Sabrosa','54367546','Filadelfia 4235');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-7','2016-12-04','Hotel Sheraton','74564467','Av Francia 324');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-8','2016-12-04','Hotel Marriot','863985316','New York 453');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-9','2016-12-04','Restaurante El Chilenazo','269854580','Manhattan 321');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('99-k','2016-12-04','Restaurante Parrilladas Argentinas','674636487','Los Sauces 678');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-1','2017-06-05','Restaurante Parrilladas Uruguayas','856645252','Los Rosales 578');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-2','2016-12-04','Restaurante El Riconcito Acogedor','456732489','Los Naranjos 678');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-3','2016-12-04','Restaurante Eladio','889076756','Av España 5467');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-4','2016-12-04','Restaurante Donde Zacarias','553676566','Sudan 4456');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-5','2016-12-04','Centro de Eventos La Cuca','987890976','Av Bernardo OHiggins 4314');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-6','2016-12-04','Restaurante Pollo Caballo','8642158974','Salvador 4563');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-7','2016-12-04','Restaurante Huan-Li','5457432764','Belgica 446');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-8','2016-12-04','Restaurante Ming-Shi','875332228','Los Manzanos 4522');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-9','2016-12-04','Restaurante Danubio Azul','7543235764','Los Perales 544');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('98-k','2016-12-04','Restaurante Hou-King','543543256','Los Alerces 5467');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-1','2016-12-04','Restaurante Chicken Story','436742356','Los Olivos 678');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-2','2016-12-04','Restaurante China Bella','643457633','Londres 7667');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-3','2016-12-04','Restaurante Sushi Lounge','352465863','Montenegro 463');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-4','2016-12-04','Hotel Angaroa','434645523','Serbia 4577');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-5','2016-12-04','Restaurante Aji Seco','266834576','Checoslovaquia 545');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-6','2016-12-04','Ristorante La Piccola Italia','653789434','Republica Siria 4123');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-7','2016-12-04','Fuente de Soda Fuente Alemana','426836975','Brasilia 678');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-8','2016-12-04','Restaurante El Otro Sitio','235689323','Montevideo 567');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-9','2016-12-04','Restaurante Shu-Wei','347823456','Buenos Aires 134');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('97-k','2016-12-04','Restaurante Tong-Fong','673465675','Teatinos 754');
+
+INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
+VALUES('96-1','2016-12-04','Restaurante Fu-Manchu','765234978','Compañia 4464');
