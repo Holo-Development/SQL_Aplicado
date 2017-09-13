@@ -1046,6 +1046,126 @@ VALUES('97-k','2016-12-04','Restaurante Tong-Fong','673465675','Teatinos 754','S
 INSERT INTO GUIADEDESPACHO(idGuiaDespacho,rut,fecha,nombre,telefono,direccion,comuna,ciudad,runEmpleado)
 VALUES('96-1','2016-12-04','Restaurante Fu-Manchu','765234978','Compañia 4464','Santiago','Santiago',19);
 
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-1','Pedido -1 Venta','Las parcelas 9382','01/09/17',1,1);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-2','Pedido -1','Las flores 9382','01/09/17',1,1);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-3','Pedido -1','Las salsas 9383','01/09/17',1,1);
+		
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-4','Pedido -1','Origami 2323','01/09/17',1,1);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-6','Pedido -1','Americo vespucio sur 243','01/09/17',1,2);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-7','Pedido -1','Vesupcio 2832','05/09/17',1,2);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-8','Pedido -2','Norte 238732','05/09/17',1,2);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-9','Pedido -2','Alesanndri 323','05/09/17',1,2);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-10','Pedido -2','EEUU 343','05/09/17',1,2);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-11','Pedido -2','Mexico 232','05/09/17',1,3);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-12','Pedido -2','Av. Vicuña Mackenna 4917','05/09/17',1,3);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-13','Pedido -2','Av. Vicuña Mackenna 4917','05/09/17',1,3);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES  ('100-14','Pedido -2','Av. Vicuña Mackenna 4917','05/09/17',1,3);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-15','Pedido -2','Av. Vicuña Mackenna 4917','05/09/17',1,3);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-16','Pedido -2','Av. Vicuña Mackenna 4917','05/09/17',1,3);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-17','Pedido -2','Av. Vicuña Mackenna 4917','10/09/17',1,3);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-18','Pedido -2','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-19','Pedido 2-','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-20','Pedido -2','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-21','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-22','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-23','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-24','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-25','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,4);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-26','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-27','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-28','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-29','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-30','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-31','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-32','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-33','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-34','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,5);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-35','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-36','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-37','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-38','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-39','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-340','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+	
+INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
+VALUES ('100-300','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
+
 <<<<<<< HEAD
 INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
 VALUES(5,'',,'','','2017-10-22')
