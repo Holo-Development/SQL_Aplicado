@@ -1166,6 +1166,126 @@ VALUES ('100-340','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
 INSERT INTO PEDIDO(runPedido,nombrePedido,direccion,fecha,idSucursal,encargadoCompraId)
 VALUES ('100-300','Pedido -3','Av. Vicuña Mackenna 4917','10/09/17',1,6);
 
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES  (1,10,1000,190,1900,1);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,2000,380,2380,2);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,3000,570,3570,3);
+		
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,4000,760,4760,4);
+		
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,5000,950,5950,5);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,6000,1140,7140,6);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,7000,1330,8330,7);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,8000,1520,9520,8);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,30,9000,1710,10710,9);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,30,10000,1900,11900,10);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,30,11000,2090,13090,11);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(3,30,12000,2280,14280,12);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(3,30,13000,2470,15470,13);
+		
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(3,20,14000,2660,16660,14);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(3,20,15000,2850,17850,15);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(3,20,16000,3040,19040,16);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,17000,3230,20230,17);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,18000,3420,21420,18);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,10,19000,3610,22610,19);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,10,20000,3800,23800,20);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,10,21000,3990,24990,21);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,22000,4180,26180,22);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,23000,4370,27370,23);
+		
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,0,24000,4560,28560,24);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,25000,4750,29750,25);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,26000,4940,30940,26);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,27000,5130,32130,27);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,10,28000,5320,33320,28);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,10,29000,5510,34510,29);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,30000,5700,34510,30);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,31000,5890,36890,31);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,32000,6080,38080,32);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,33000,6270,39270,1);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,34000,6460,40460,2);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,35000,6650,41650,3);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(2,20,36000,6840,42840,4);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,37000,7030,44030,5);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,38000,7220,45220,7);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,39000,7410,46410,6);
+	
+INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
+VALUES(1,20,40000,7600,47600,6);
+
 <<<<<<< HEAD
 INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
 VALUES(5,'',,'','','2017-10-22')
