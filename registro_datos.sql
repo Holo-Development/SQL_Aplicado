@@ -1286,6 +1286,156 @@ VALUES(1,20,39000,7410,46410,6);
 INSERT INTO DETALLE_PEDIDO(cantidad,detalle,precioUnitario,iva,total,idPedido)
 VALUES(1,20,40000,7600,47600,6);
 
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Liquido','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Aseo','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Fruta','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Verdura','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Chatarra','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('All in one','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Lacteos','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Carne','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Insumos','1');
+
+INSERT INTO CATEGORIA_PRODUCTO(nombreCategoriaProducto,disponible)
+VALUES('Utensilios','1');
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Coca cola',2000,380,2380,'1',1,10,10)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Pepsi',2000,380,2380,'1',1,10,10)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Bilz y Pap',2000,380,2380,'1',1,10,10)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Fanta',2000,380,2380,'1',1,10,10)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Cristal',3000,570,3570,'1',1,10,10)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Escoba',3000,570,3570,'1',2,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Trapos',2000,380,2380,'1',2,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Limpia vidrios',3500,665,,'1',2,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Bolsa basura',1000,190,190,'1',2,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Lustra muebre',1000,190,190,'1',2,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Platano',1000,190,190,'1',3,20,20)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Naranja',1000,190,190,'1',3,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Manzana',1000,190,190,'1',3,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Uva',1000,190,190,'1',3,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Kiwi',1000,190,190,'1',3,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Zanahoria',1000,190,190,'1',4,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Fruta',1000,190,190,'1',4,30,30)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Duraznosdfg',10000,1900,11900,'0',4,40,40)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('sdfg',10000,1900,11900,'0',4,40,40)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('sdfg',10000,1900,11900,'0',4,40,40)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Papas fritas',10000,1900,11900,'0',5,40,40)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('galletas',10000,1900,11900,'1',5,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('torta',10000,1900,11900,'1',5,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('chocolate blanco',10000,1900,11900,'1',5,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('completo',10000,1900,11900,'1',5,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('asdfg',10000,1900,11900,'0',6,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('sdfg',10000,1900,11900,'0',6,11,11)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('dsfg',10000,1900,11900,'0',6,22,22)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('dssdd',2500,475,2975,'0',6,22,22)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('sddds',2500,475,2975,'0',6,22,22)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Leche',2500,475,2975,'0',7,22,22)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Yogurt',2500,475,2975,'1',7,33,33)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Queso',2500,475,2975,'1',7,33,33)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Yogurt + cereal',2500,475,2975,'1',7,33,33)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Leche semidescremada',2500,475,2975,'1',7,34,34)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Pollo',2500,475,2975,'1',8,15,15)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Carne',2500,475,2975,'1',8,15,15)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Tocino',2500,475,2975,'1',8,15,15)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Costillar',2500,475,2975,'1',8,15,15)
+
+INSERT INTO PRODUCTO(nombreProducto,precioNetoProducto,ivaProducto,precioProducto,disponibilidad,id_CategoriaProducto,idProveedor,idEncargado)
+VALUES('Choripan',2500,475,2975,'1',8,15,15)
+
 <<<<<<< HEAD
 INSERT INTO DETALLE_GUIA_DESPACHO(cantidad,detalle,total,nombreRecepcion,rutRecepcion,fechaDeRecepcion)
 VALUES(5,'',,'','','2017-10-22')
