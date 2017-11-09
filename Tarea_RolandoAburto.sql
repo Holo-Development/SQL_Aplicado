@@ -169,4 +169,149 @@ AS
 
 EXEC REGISTRARPAIS @ID = '0014',@PAIS = 'COSTA RICA'
 
---quede en el 7 :D
+--Se deberá crear un procedimiento en donde deberá controlar el registro de un pago de un
+--nuevo cliente en la base de datos de la agencia. Recuerde utilizar if OBJECT_ID para
+--eliminar un objeto que ya este creado en la base de datos de la agencia. Recuerde que se
+--debe ejecutar el procedimiento almacenado.
+SELECT * FROM PAGO
+
+GO
+
+CREATE PROCEDURE REGISTROPAGOCLIENTENUEVO
+(@IDPASAJERO CHAR(5), @NOMBRE VARCHAR(50),@PAIS VARCHAR(30), @TELEFONO CHAR(15), @EMAIL VARCHAR(50), @NUMEROPAGO INT, @IDRESERVA INT, @FECHA DATE, @MONTO MONEY)
+AS
+	IF EXISTS(SELECT * FROM PAGO
+				WHERE PAGO.NUMPAGO = @NUMEROPAGO AND PAGO.IDRESERVA = @IDRESERVA
+				AND PAGO.IDPASAJERO = @IDPASAJERO AND PAGO.FECHA = @FECHA AND PAGO.MONTO = @MONTO)
+	BEGIN
+		PRINT 'OPERACION INVALIDA'
+	END
+	ELSE
+	BEGIN TRY
+		EXEC REGISTROPASAJEROS @IDPASAJERO = @IDPASAJERO,@NOMBRE = @NOMBRE, @PAIS = @PAIS, @TELEFONO = @TELEFONO, @EMAIL = @EMAIL
+		INSERT INTO PAGO VALUES(@NUMEROPAGO, @IDRESERVA, @IDPASAJERO, @FECHA, @MONTO)
+		PRINT 'PAGO Y NUEVO CLIENTE REGISTRADO'
+	END TRY
+	BEGIN CATCH
+		SELECT
+		ERROR_NUMBER()AS ERROR_NUMBER,
+		ERROR_SEVERITY() AS ERROR_SEVERITY ,
+		ERROR_STATE()AS ERROR_STATE,
+		ERROR_PROCEDURE() AS ERROR_PROCEDURE,
+		ERROR_LINE() AS ERROR_LINE,
+		ERROR_MESSAGE() AS ERROR_MESSAGE
+	END CATCH
+
+EXEC REGISTROPAGOCLIENTENUEVO @IDPASAJERO = '2222', @NOMBRE = 'VOH MISMO', @PAIS = 'CHILE', @TELEFONO = '111111111', @EMAIL = 'ÑE@ÑE.CL', @NUMEROPAGO = '2222222', @IDRESERVA = '656', @FECHA = '2014-06-21', @MONTO = 0.0  
+
+--Se superó el nivel máximo de anidamiento de vistas, procedimientos almacenados, funciones o desencadenadores (límite: 32).
+
+
+
+--Se deberá crear una función en donde deberá retornar el promedio de pasajeros
+--registrados en la base de datos.
+GO
+
+CREATE FUNCTION PROMEDIOPASAJEROS()
+RETURNS DECIMAL
+AS
+BEGIN
+	DECLARE @PROMEDIO DECIMAL
+
+	SELECT @PROMEDIO = COUNT(EMAIL)
+	FROM PASAJERO
+
+	RETURN(SELECT AVG(@PROMEDIO) FROM PASAJERO)
+END
+GO
+
+EXEC DBO.PROMEDIOPASAJEROS
+
+GO
+--Se deberá crear una función promedio en donde deberá mostrar cuantos pasajeros son
+--del país argentina.
+CREATE FUNCTION PROMEDIOPASAJEROSARGENTINA()
+RETURNS DECIMAL
+AS
+BEGIN
+	DECLARE @ALGO DECIMAL
+
+	SELECT @ALGO=COUNT(EMAIL)
+	FROM PASAJERO
+	WHERE PASAJERO.IDPAIS = DBO.VERIFICARPAIS('ARGENTINA')
+	
+	RETURN(SELECT AVG(@ALGO)
+	FROM PASAJERO
+	WHERE PASAJERO.IDPAIS = DBO.VERIFICARPAIS('ARGENTINA'))
+END
+GO
+
+EXEC DBO.PROMEDIOPASAJEROSARGENTINA
+
+--Se deberá crear un informe en donde la función deberá sacar el promedio de todos los
+--costos de los pasajeros que fueron inscritos en la base de datos. Recuerden que se tiene
+--que probar esta función en la base de datos.
+GO
+
+IF OBJECT_ID('PROMEDIOSDEPAGOPORPASAJERO') IS NOT NULL
+BEGIN
+	DROP PROCEDURE PROMEDIOSDEPAGOPORPASAJERO
+END
+GO
+
+CREATE PROCEDURE PROMEDIOSDEPAGOPORPASAJERO
+AS
+	BEGIN
+		DECLARE @MONTOPROMEDIO INT=0
+		DECLARE @NOMBRE VARCHAR(100) = ''
+		DECLARE CURSORSI CURSOR
+		FOR SELECT NOMBRES, AVG(PAGO.MONTO)
+			FROM PAGO JOIN PASAJERO 
+			ON PAGO.IDPASAJERO = PASAJERO.IDPASAJERO 
+			GROUP BY PASAJERO.NOMBRES
+			OPEN CURSORSI
+
+			FETCH CURSORSI INTO @NOMBRE, @MONTOPROMEDIO
+			PRINT 'INFOME DE PROMEDIOS DE PAGOS DE PASAJEROS'
+			PRINT '**********************************'
+			WHILE @@FETCH_STATUS = 0
+			BEGIN
+				PRINT '* NOMBRE:'+TRIM(@NOMBRE)+'    *'
+				PRINT '* PROMEDIO: '+CAST(@MONTOPROMEDIO AS VARCHAR(50))+'                 *'
+				PRINT '**********************************'
+				FETCH CURSORSI INTO @NOMBRE, @MONTOPROMEDIO
+			END
+			CLOSE CURSORSI
+			DEALLOCATE CURSORSI
+	END
+
+EXEC PROMEDIOSDEPAGOPORPASAJERO
+
+--Se deberá crear una función en donde se deberá mostrar los puntos acumulados x mes y
+--año de todos los pasajeros.
+
+--NO EXISTE EL ATRIBUTO O TABLA PUNTOS ACUMULADOS ;)
+
+
+--Se necesita saber cuáles son los países más visitados y cuál es la cantidad de pesos
+--ganados por esos destinos.
+
+SELECT PAIS.PAIS, COUNT(PASAJERO.IDPAIS) AS [NUMERO VIAJES], SUM(PAGO.MONTO) AS [MONTO GANADO]
+FROM PAIS JOIN PASAJERO
+ON PAIS.IDPAIS = PASAJERO.IDPAIS
+JOIN PAGO
+ON PASAJERO.IDPASAJERO = PAGO.IDPASAJERO
+GROUP BY PAIS.PAIS
+ORDER BY SUM(PAGO.MONTO) DESC
+
+--Usted muéstreme un ejemplo de cómo se utiliza los siguientes temas en sql server
+--a. Cursores en la base de datos
+--b. If en la base de datos
+--c. Joins al menos 3 en la base de datos
+--d. Estructura del while en la base de datos
+--e. Trabajando con like , between , in dependiendo las condiciones de búsqueda en la
+--base de datos.
+--f. Control de Errores que se pueden producir en la base de datos
+--Es recomendable que el código que usted crea aplicando estos conceptos estén
+--relacionado con la base de datos de la agencia de viaje
+
